@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#main {
+    margin: 20px;
+}
+
+#main h1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
